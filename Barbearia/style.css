@@ -1,0 +1,202 @@
+/* GERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.clear{ clear: both; }
+
+/* CABEÇALHO */
+
+header{
+    display: flex;
+    /* position:fixed; */
+    width: 100%;
+    background-color: rgba(156, 144, 144, 0.708);
+}
+
+.logotipo{
+    min-width: 40%;
+    text-align: center;
+}
+
+.logotipo img{
+    max-width: 100px;
+    padding: 4px 0;
+}
+
+/* NAVEGAÇÃOO */
+
+nav{
+    float: right;
+    min-width: 60%;
+}
+
+nav ul{
+    margin-top: 42px;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li{
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 1.6rem;
+}
+
+/* SESSÃO 01 - Apresentação e endereços */
+
+.one{
+    background-image: url("/imagens/wallpaper_01.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 42rem;
+    text-align: center;
+    width: 100%;
+}
+
+.one .texto_inicial{
+    width: 500px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.one .title{
+    width: 250px;
+    text-align: center;
+    margin: 0 auto 190px auto;
+    position: relative;
+    top: 100px;
+    font-size: 45px;
+    background-color:rgba(255, 255, 255, 0.346)
+}
+
+.one .body{
+    background-color:rgba(255, 255, 255, 0.42);
+    margin-bottom: 80px;
+}
+
+/* ENDEREÇOS */
+
+.local{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.local .model{
+    padding: 0 100px;
+    margin: 40px auto;
+    display: inline-block;
+
+}
+
+.cep{
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.338);
+    margin: 5px auto;
+    font-weight: bold;
+}
+
+/* GALERIA */
+
+.galery{
+    width: 100%;
+    height: 62rem;
+    background-color: darkgray;
+    text-align: center;
+}
+
+.galeria{
+    font-size: 50px;
+    padding: 50px;
+}
+
+div.img{
+    border: 1px solid black;
+    display: inline-block;
+    width: 250px;
+    padding-top: 250px;
+    background-color: white;
+    position: relative;
+    margin: 10px;
+}
+
+div.background{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px;
+}
+
+/* CONTATO */
+
+section.contato{
+    background-color: #be9469c7;
+    height: 550px
+}
+
+.formulario{
+    float: left;
+
+}
+
+.formulario h1{
+    margin: 3rem 5rem; 
+    font-size: 35px;
+}
+
+form{
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #f8f2ecc7;
+    max-width: 400px;
+    margin-left: 6rem;
+    padding: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    font-size: 19px;
+    margin-bottom: 10px;
+    padding: 3px;
+    border: 0px solid white;
+    border-bottom: 1px solid black;
+}
+
+#name{
+    width: 45%;
+}
+
+#cell{
+    width: 45%;
+    float: right;
+}
+
+button{
+    width: 100%;
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    height: 35px;
+    background-color: antiquewhite;
+}
+
+div.contato_img{
+    background-image: url("/imagens/contato.jpeg");
+    background-repeat: no-repeat;
+    float: right;
+    width: 40%;
+    height: 315px;
+    margin-top: 140px;
+    margin-right: 2%;
+}
