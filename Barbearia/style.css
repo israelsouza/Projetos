@@ -54,7 +54,7 @@ nav ul li{
 
 /* SESSÃO 01 - Apresentação e endereços */
 
-.one{
+.home{
     background-image: url("/imagens/wallpaper_01.jpeg");
     background-repeat: no-repeat;
     background-position: center;
@@ -63,14 +63,14 @@ nav ul li{
     width: 100%;
 }
 
-.one .texto_inicial{
+.home .texto_inicial{
     width: 500px;
     font-size: 30px;
     text-align: center;
     margin: 0 auto;
 }
 
-.one .title{
+.home .title{
     width: 250px;
     text-align: center;
     margin: 0 auto 190px auto;
@@ -80,12 +80,23 @@ nav ul li{
     background-color:rgba(255, 255, 255, 0.346)
 }
 
-.one .body{
+.home .body{
     background-color:rgba(255, 255, 255, 0.42);
     margin-bottom: 80px;
 }
 
 /* ENDEREÇOS */
+
+.maps{
+    background-color: blue;
+    padding: 90px;
+}
+
+.maps h1{
+    font-size: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
 
 .local{
     width: 100%;
@@ -96,10 +107,14 @@ nav ul li{
 }
 
 .local .model{
-    padding: 0 100px;
-    margin: 40px auto;
+    padding: 10px;
+    margin: 40px 100px;
     display: inline-block;
+}
 
+.model:hover{
+    background-color: aqua;
+    transition: 1s;
 }
 
 .cep{
@@ -113,7 +128,7 @@ nav ul li{
 
 .galery{
     width: 100%;
-    height: 62rem;
+    padding-top: 1%;
     background-color: darkgray;
     text-align: center;
 }
@@ -143,17 +158,18 @@ div.background{
 
 section.contato{
     background-color: #be9469c7;
-    height: 550px
+    padding: 30px 0;
 }
 
 .formulario{
     float: left;
-
 }
 
-.formulario h1{
-    margin: 3rem 5rem; 
-    font-size: 35px;
+.contato > h1{
+    padding: 3rem 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
 }
 
 form{
@@ -197,6 +213,6 @@ div.contato_img{
     float: right;
     width: 40%;
     height: 315px;
-    margin-top: 140px;
+    margin-top: 70px;
     margin-right: 2%;
 }
