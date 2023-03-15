@@ -1,16 +1,18 @@
-#### O que foi feito?
+### Onde foi feito?
+Pelo editor de código Jupyter.
 
+### O que foi feito?
 01
 * Controlar mouse e teclado
 * Importar base de dados
 * Criação indicadores
 * Enviar e-mail automaticamente
 
-#### Situação Problema
+### Situação Problema
 
 01 - Automação de Processos com Python
 
-##### Desafio:
+#### Desafio:
 Para controle de custos, todos os dias, seu chefe pede um relatório com todas as compras de mercadorias da empresa.
 O seu trabalho, como analista, é enviar um e-mail para ele, assim que começar a trabalhar, com o total gasto, a quantidade de produtos compradas e o preço médio dos produtos.
 
