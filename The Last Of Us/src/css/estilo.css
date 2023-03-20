@@ -2,6 +2,17 @@
     font-family: 'Sono', sans-serif;
 }
 
+main:after{
+    content: '';
+    position: fixed;
+    min-height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 35%, rgba(0,0,0,0) 65%, rgba(0,0,0,1) 100%);
+    z-index: -1;
+}
+
 /* -------------------------------- I N F O R M A Ç Õ E S */
 
 .cega{
@@ -81,10 +92,6 @@
     transform: scale(1.3);
 }
 
-.icone.galeria{
-    display: none;
-}
-
 /* -------------------------------- C A R R O S S E L */
 
 main .carrossel{
@@ -100,8 +107,18 @@ main .carrossel{
     min-height: 100vh;
     display: none;
     object-fit: cover; 
+    animation: trocarImagem 0.7s;
 }
 
 .carrossel .imagemC.ativa{
     display: block;
+}
+
+@keyframes trocarImagem{
+    from{
+        opacity: 0.90;
+    }
+    to{
+        opacity: 1;
+    }
 }

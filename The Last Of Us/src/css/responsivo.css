@@ -32,7 +32,7 @@
     }
 }
 
-@media (max-width:350px){
+@media (max-width:400px){
     .informacoes .conteudo{
         width: 100%;
         align-items: center;
@@ -51,7 +51,6 @@
     }
 
     .informacoes .menu-lateral ul{
-        /* display: block; */
         flex-direction: row;
         margin-top: 20px;
         filter: none;
