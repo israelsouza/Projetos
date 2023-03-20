@@ -1,8 +1,9 @@
+Desafio de Python proposto no Youtube pelo canal "Hashtag Programação" no evento "Intensivão de Python", cujo objetivo é a automação de processos manuais. Conseguindo assim agilizar qualquer processo que demande o uso do mouse e do teclado.
+
 ### Onde foi feito?
 Pelo editor de código Jupyter.
 
 ### O que foi feito?
-01
 * Controlar mouse e teclado
 * Importar base de dados
 * Criação indicadores
