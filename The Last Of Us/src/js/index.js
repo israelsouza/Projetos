@@ -1,8 +1,6 @@
-// 1. pegar elementos dos botoes e imagens
 const botoesCarrossel = document.querySelectorAll('.btn');
 const imagens = document.querySelectorAll('.imagemC');
 
-// 2. identificar onde clicou
 botoesCarrossel.forEach((botao, index) => {
     botao.addEventListener('click', () => {
         desativarClasseBotao();
