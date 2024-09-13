@@ -1,3 +1,3 @@
-# Projetos/Desafios
+## Automatizando teclado e mouse com Python
 
-Nesta pasta estão armazenados projetos e desafios propostos
+Script para automatizar tarefas manuais
